@@ -72,13 +72,12 @@
   }
 }
 
-/* Hide scrollbar for Chrome, Safari, Edge */
-.cards::-webkit-scrollbar {
-  display: none;
+*::-webkit-scrollbar{
+  width: 5px;
 }
 
-/* Hide scrollbar for Firefox */
-.cards {
-  scrollbar-width: none; /* Firefox */
-  -ms-overflow-style: none; /* IE and Edge */
+*::-webkit-scrollbar-thumb{
+  background-color: rgb(123, 123, 123);
+  border-radius: 5px;
 }
+
